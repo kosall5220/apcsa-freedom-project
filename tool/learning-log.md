@@ -1,19 +1,19 @@
 # Tool Learning Log
 
-## Tool: **X**
+## Tool: **Godot**
 
-## Project: **X**
+## Project: **"Sneaky Snacks"**
 
 ---
 
-### X/X/XX:
-* Text
+### 9/29/25:
+* 
 
 ### X/X/XX:
 * Text
 
 
-<!-- 
+<!--
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc
 * Challenges, a-ha moments, etc

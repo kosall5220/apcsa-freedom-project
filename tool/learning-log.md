@@ -90,6 +90,30 @@ func _physics_process(delta: float) -> void:
 
 For today I just got some exposure to Godot and learned how to use GDScript to make a basic character model move. Later on I will explore more ways to use Godot.
 
+### 11/1/25
+
+For today I just learned how to put text or labels into my scene.
+
+First I clicked this `+` button at the top left to add a new node.
+
+![alt text](imgs/ll2_1.png)
+
+Then I searched for "Label" and added it to my scene as a child of the main node.
+
+![alt text](imgs/ll2_2.png)
+
+Now I can change the text of the label by selecting it and changing the "Text" property in the inspector on the right. For this I just changed it to "Hello World".
+
+I also moved the label by clicking and dragging it in the scene view.
+
+![alt text](imgs/ll2_3.png)
+
+Lastly I changed the color of the text to green by editing the `Theme Property font_color` in the inspector.
+
+![alt text](imgs/ll2_4.png)
+
+Today I didn't get to do too much and just learned how to add text to my scene. Hopefully I could explore some cooler features like building the background of a game or maybe having user input to move the player around..
+
 ### X/X/XX:
 * Text
 

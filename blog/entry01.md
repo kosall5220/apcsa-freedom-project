@@ -120,6 +120,8 @@ This will be a skill that I will use throughout the entire Freedom Project. I wi
 
 ### Next Steps
 My next steps are just to continue learning about Godot and considering how to implement my game idea. There's still a lot of things I need to learn about Godot before I start any planning for the game design.
+
+
 [Next](entry02.md)
 
 [Home](../README.md)

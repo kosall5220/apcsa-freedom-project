@@ -112,7 +112,10 @@ Lastly I changed the color of the text to green by editing the `Theme Property f
 
 ![alt text](imgs/ll2_4.png)
 
-Today I didn't get to do too much and just learned how to add text to my scene. Hopefully I could explore some cooler features like building the background of a game or maybe having user input to move the player around..
+Today I didn't get to do too much and just learned how to add text to my scene. Hopefully I could explore some cooler features like building the background of a game or maybe having user input to move the player around.
+
+11/11/2025
+First I downloaded this starter [assest pack](https://github.com/gdquest-demos/godot-3-beginner-2d-platformer/releases/tag/1.1.0) for  2D platformer game.
 
 ### X/X/XX:
 * Text

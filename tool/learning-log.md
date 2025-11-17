@@ -114,8 +114,29 @@ Lastly I changed the color of the text to green by editing the `Theme Property f
 
 Today I didn't get to do too much and just learned how to add text to my scene. Hopefully I could explore some cooler features like building the background of a game or maybe having user input to move the player around.
 
-11/11/2025
+### 11/11/2025
+
 First I downloaded this starter [assest pack](https://github.com/gdquest-demos/godot-3-beginner-2d-platformer/releases/tag/1.1.0) for  2D platformer game.
+
+I imported the assets into my Godot project by copying the files into the project folder.
+
+![](imgs/ll3_1.png)
+
+I created a Node2D scene and added a characterBody2D node as a child node.
+
+I added a sprite node as a child of the characterBody2D node and assigned the player image from the asset pack to it.
+
+I also added a `CollisionShape2D` node as a child of the characterBody2D which is used to detect collisions with other objects. I set the shape of the collision to a rectangle that fits the player sprite.
+
+Then just to center the camera on the player I added a `Camera2D` node as a child of the characterBody2D
+
+![](imgs/ll3_2.png)
+
+I added a background by adding a sprite node as a child of the main scene and assigned the background image from the asset pack to it.
+
+For today I just created a charcter with collision detection and a background.
+
+![alt text](imgs/ll3_3.png)
 
 ### X/X/XX:
 * Text

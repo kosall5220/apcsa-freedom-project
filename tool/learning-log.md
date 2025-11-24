@@ -138,9 +138,121 @@ For today I just created a charcter with collision detection and a background.
 
 ![alt text](imgs/ll3_3.png)
 
-### X/X/XX:
-* Text
+### 11/20/25:
+Video I used for today: [How to Make a 2D Platformer in Godot - Coding With Russ](https://www.youtube.com/watch?v=oED12Mo2018&t=742s)
 
+Today I learned about collisons and player movement.
+
+For this I had to use GDscript for the movement:
+
+This is the full code I wrote today
+```python
+extends CharacterBody2D
+
+const SPEED = 300.0
+const JUMP_VELOCITY = -400.0
+
+func _physics_process(delta: float) -> void:
+	# Add gravity
+	if not is_on_floor():
+		velocity += get_gravity() * delta
+
+	# Handle jump
+	if Input.is_action_just_pressed("ui_accept") and is_on_floor():
+		velocity.y = JUMP_VELOCITY
+
+	# Get the input direction and handle movement/deceleration
+	var direction := Input.get_axis("ui_left", "ui_right")
+	if direction:
+		velocity.x = direction * SPEED
+	else:
+		velocity.x = move_toward(velocity.x, 0, SPEED)
+
+	move_and_slide()
+```
+
+`extends CharacterBody2D` means this script is attached to a CharacterBody2D node. It basically connects the code to my player character.
+
+`const SPEED = 300.0` and `const JUMP_VELOCITY = -400.0` are constants that define the speed of the player and the jump velocity which is how high the player will jump. These values will be used later in the code to control the movement of the player.
+
+The `_physics_process(delta: float) -> void:` function is a built-in function in Godot that is called every frame and is used for physics calculations.
+
+The `delta` parameter represents the time passed since the last frame.
+
+The way functions are defined in GDscript:
+`nameOfFunction(parameter: type) -> returnType:`
+
+The `_physics_process` is the name of the function.
+
+The `(delta: float)` part indicates that this function takes one parameter called delta which is of type float.
+
+A `float` is a number that can have decimal points.
+
+The `-> void` part indicates that this function does not return any value.
+
+In the `_physics_process` function we use an if statement to check if the player is not on the floor using the `is_on_floor()` method. If the player is in the air we add gravity to the player's velocity using `get_gravity()` multiplied by delta.
+
+```python
+    if not is_on_floor():
+        velocity += get_gravity() * delta
+```
+The reason why we `+= velocity` is because we want to add the gravity to the current velocity of the player. This will make the player fall faster over time. Then by multiplying by `delta` we make sure the gravity is applied consistently regardless of the frame rate.
+
+However when I tested the game the gravity did work but the player fell through the floor.
+
+![alt text](imgs/ll4_1.png)
+
+The way I fixed this was by creating a `CollisionShape2D` for the floor and player.
+
+What a `CollisionShape2D` does is defines the shape of an object (in this case I used a rectangle shape for both the player and floor) for collision detection. This allows the physics engine to detect when two objects collide allowing the player to land on the floor instead of falling through it.
+
+![alt text](imgs/ll4_2.png)
+
+![alt text](imgs/ll4_3.png)
+
+Lastly I added code to handle player jumping and horizontal movement.
+
+The way inputs work in Godot is through the Input class. The Input class allows us to check for user input such as keyboard or mouse events.
+
+For jumping I used an if statement to check if the jump button `ui_accept` (the space bar) is pressed AND if the player is on the floor. When both conditions are true we set the `velocity.y`(the vertical velocity of the player) to the `jump velocity` which makes the player jump.
+
+```python
+# if player presses jump button and is on the floor --> jump
+    if Input.is_action_just_pressed("ui_accept") and is_on_floor():
+        velocity.y = JUMP_VELOCITY
+```
+
+For horizontal movement I used the `Input.get_axis("ui_left", "ui_right")` method to get the input direction.
+
+ This method returns a value between -1 and 1 based on the input from the left and right arrow keys. If the left arrow key is pressed it returns -1, if the right arrow key is pressed it returns 1, and if neither key is pressed it returns 0.
+
+ I used an if statement to check if the direction is not 0 (meaning either left or right key is pressed). If a key is pressed we set the `velocity.x` (the horizontal velocity of the player) to the direction multiplied by the `SPEED` constant. This will move the player left or right based on the input.
+
+ Then an else statement to stop the player from moving when no key is pressed. This is done using the `move_toward` method which gradually reduces the `velocity.x` to 0 at a rate of `SPEED`.
+
+ How `move_toward' works:
+ `move_toward(current_value, target_value, delta)`
+
+ `delta` is how much to change the current value towards the target value.
+
+```python
+# get input direction
+    var direction := Input.get_axis("ui_left", "ui_right")
+    if direction:
+        velocity.x = direction * SPEED
+    else:
+        velocity.x = move_toward(velocity.x, 0, SPEED)
+
+    move_and_slide()
+```
+
+Finally we call the `move_and_slide()` to move the player based on its velocity and slides along any colliding surfaces.
+
+![alt text](imgs/ll4_4.png)
+
+Overall today I learned how to implement gravity, jumping, and horizontal movement for my player character using GDscript in Godot. I also learned how to add collision detection using CollisionShape2D nodes.
+
+I hope to find more features in Godot that I could use to help with my Freedom Project game.
 
 <!--
 * Links you used today (websites, videos, etc)

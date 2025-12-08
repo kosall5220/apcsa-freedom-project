@@ -254,6 +254,27 @@ Overall today I learned how to implement gravity, jumping, and horizontal moveme
 
 I hope to find more features in Godot that I could use to help with my Freedom Project game.
 
+### 12/5/25:
+Today I created more platforms to make a simple level/obstacle course for the player to jump on.
+
+Like before I created StaticBody2D nodes for each platform and added CollisionShape2D nodes as children to define the shape of the platforms. I also added Sprite nodes as children to give the platforms its apperance.
+
+![alt text](imgs/ll5_1.png)
+
+For each collision shape I used a rectangle shape and adjusted its size to fit the platform sprite.
+
+![alt text](imgs/ll5_2.png)
+
+Here's how the level looks so far:
+
+![alt text](imgs/ll5_3.png)
+
+When I run the game the player can now jump on these platforms.
+
+![alt text](imgs/ll5_4.png)
+
+Next time I want to add collectibles for the player to pick up.
+
 <!--
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc

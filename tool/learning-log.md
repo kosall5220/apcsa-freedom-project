@@ -275,6 +275,18 @@ When I run the game the player can now jump on these platforms.
 
 Next time I want to add collectibles for the player to pick up.
 
+### 12/14/25
+
+So far I added created a coin but for now it can not be collected yet. I did this by making an Area2D which detects when another collision object enter, exit, or overlap with it.
+
+Then I added a sprite to this Area2D to give it a physical appearance.
+
+![alt text](imgs/ll6_1.png)
+
+![alt text](imgs/ll6_2.png)
+
+Later on I do want to learn how to make the Area2D do something by writing GDscript for it.
+
 <!--
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc

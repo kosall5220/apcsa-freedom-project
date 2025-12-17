@@ -161,7 +161,7 @@ When I run the game the player can now jump on these platforms.
 
 ### Skills
 ### How to Read & How to Google
-While learning my tool I have been using [Godot Docs](https://docs.godotengine.org/en/stable/). For example I used the [docs](https://docs.godotengine.org/en/stable/tutorials/physics/collision_shapes_2d.html) to learn about 2D collision shapes. I also found this [youtube video](https://www.youtube.com/watch?v=oED12Mo2018&t=742s) to help me with GDscript and it is where I found the assets for the game.
+While learning my tool I have been using [Godot Docs](https://docs.godotengine.org/en/stable/). For example I used the [docs](https://docs.godotengine.org/en/stable/tutorials/physics/collision_shapes_2d.html) to learn about 2D collision shapes. I also found this [youtube video](https://www.youtube.com/watch?v=oED12Mo2018&t=742s) to help me with GDscript and it is where I found the assets for the game. To find this video I looked up "How to make a 2D game on Godot" and I ended up finding that video.
 
 ### Winter Break Plans
 I will not have much time during winter break but I at least want to attempt to learn how to make consumable objects that the player can collect. If I have extra time I also want to learn how to make character animations.

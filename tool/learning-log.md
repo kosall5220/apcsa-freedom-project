@@ -287,6 +287,24 @@ Then I added a sprite to this Area2D to give it a physical appearance.
 
 Later on I do want to learn how to make the Area2D do something by writing GDscript for it.
 
+### 1/10/26
+
+I learned how to make the camera follow the player around.
+
+To do this I just had to add a Camera2D node as a child of the player CharacterBody2D node.
+
+![alt text](imgs/ll7_1.png)
+
+Having the camera as a child of the player makes the camera follow the player around automatically. This is because child nodes inherit the position of their parent nodes.
+
+When I run the game now the camera follows the player as it moves around the level.
+
+![alt text](imgs/ll7_2.png)
+
+
+This could be useful for my game since the level could be larger than the screen size and the player needs to see where they are going.
+
+
 <!--
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc

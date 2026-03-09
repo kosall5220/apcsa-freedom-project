@@ -1,16 +1,30 @@
 # Plan
 
-## Tool:
-## Product:
+## Tool: Godot
+## Product: 2D stealth game, "Sneaky Snacks"
 
 ---
 
 ## Timeline
 
-#### MVP
+#### MVP (deadline: April 13, 2026)
 
-- [ ] Create new project on godot (deadline: March 15, 2026)
-- [ ] Link project to Github (deadline: March 20, 2026, my birthday :])
+- [x] Create new project on godot (deadline: March 15, 2026)
+- [x] Link project to Github (deadline: March 15, 2026)
+- [ ] Map creation (deadline: April 10, 2026)
+  - [ ] Items or food collectables
+  - [ ] map layout, hiding spots, idea is the inside of an house
+- [ ] Charcters (deadline: April 10, 2026)
+  - [ ] Player character (deadline: April 1, 2026)
+  - [ ] Enemy character (deadline: April 1, 2026)
+- [ ] Basic movement (deadline: April 10, 2026)
+- [ ] Code for collecting items (deadline: April 10, 2026)
+  - [ ] Item models (deadline: April 7, 2026)
+- [ ] Code for being caught by enemy (deadline: April 10, 2026)
+- [ ] Win and lose conditions (deadline: April 10, 2026)
+  - [ ] Win condition: collect food (deadline: April 10, 2026)
+  - [ ] Lose condition: get caught by parents (deadline: April 10, 2026)
+
 
 
 <!-- - [ ] Task (deadline: X)
@@ -18,8 +32,10 @@
 
 #### Beyond MVP
 
-- [ ] Task
-  - [ ] Subtask
+- [ ] More detaled characters or item models.
+- [ ] Win/losing screen
+- [ ] More ememy types such as a pet or a sibling
+
 
 
 <!-- EXAMPLE

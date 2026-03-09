@@ -1,7 +1,7 @@
 # Plan
 
-## Tool: 
-## Product: 
+## Tool:
+## Product:
 
 ---
 
@@ -9,8 +9,12 @@
 
 #### MVP
 
-- [ ] Task (deadline: X)
-  - [ ] Subtask (deadline: X)
+- [ ] Create new project on godot (deadline: March 15, 2026)
+- [ ] Link project to Github (deadline: March 20, 2026, my birthday :])
+
+
+<!-- - [ ] Task (deadline: X)
+  - [ ] Subtask (deadline: X) -->
 
 #### Beyond MVP
 
@@ -49,7 +53,7 @@
 
 <!-- DO NOT USE THIS YET
 
-#### Peer Feedback 
+#### Peer Feedback
 
 | Name | Glows | Grows |
 | -------- | ------- | ------- |

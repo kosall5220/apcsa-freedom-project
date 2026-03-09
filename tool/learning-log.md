@@ -306,6 +306,28 @@ This could be useful for my game since the level could be larger than the screen
 
 ### 3/9/26
 
+I started working on my freedom project a little bit. What I did today was create a new peoject or game on Godot then linked it to Github.
+
+First I had to create a new project on Godot.
+![alt text](imgs/ll8_1.png)
+
+Then to get it on github I had to download Github desktop and create a new repository for this project. After that I cloned the project folder into my IDE and opened it there.
+
+Then I added the project files into the github destop app and turned it into a repository.
+
+![alt text](imgs/ll8_2.png)
+
+After that I published the repository to github and now I can see the project files on github.
+
+![alt text](imgs/ll8_3.png)
+
+Lastly I cloned the repository into my IDE and so I can now I can commit my edits to github.
+
+![alt text](imgs/ll8_4.png)
+
+Overall today I just set up the project for my freedom project game. I will start working on the actual game next time.
+
+
 <!--
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc

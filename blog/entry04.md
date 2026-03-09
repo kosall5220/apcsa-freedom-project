@@ -5,7 +5,7 @@
 I continue to learn how to use Godot and started working on my freedom project.
 
 ### Engineering Design Process:
-I am currently in the planning and prototyping stage of the engineering design process.
+I am currently in the planning and prototyping stage of the engineering design process. I made a plan to complete the MVP of my project and also started working on it. I will continue to work on the MVP and then move on to the beyond MVP if I have time.
 
 #### Making a plan:
 For my plan I seperated each task and created a timeline for when I want each task to done. The goal is to finish everything before the due date which is April 13th, 2026.

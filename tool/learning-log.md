@@ -306,7 +306,7 @@ This could be useful for my game since the level could be larger than the screen
 
 ### 3/9/26
 
-I started working on my freedom project a little bit. What I did today was create a new peoject or game on Godot then linked it to Github.
+I started working on my freedom project a little bit. What I did today was create a new project or game on Godot then linked it to Github.
 
 First I had to create a new project on Godot.
 ![alt text](imgs/ll8_1.png)

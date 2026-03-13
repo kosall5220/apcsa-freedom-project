@@ -15,7 +15,7 @@ My plan:
 ![alt text](../tool/imgs/blog4_1.png)
 
 #### What I have done so far:
-I started working on my freedom project a little bit. What I did was create a new project or game on Godot then linked it to Github.
+I started working on my freedom project a little bit. What I did was create a new project or game on Godot then linked it to Github. To help me do that I used this [video](https://www.youtube.com/watch?v=5H4A74FIEtg) to help me.
 
 First I had to create a new project on Godot.
 ![alt text](../tool/imgs/ll8_1.png)

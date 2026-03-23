@@ -327,6 +327,20 @@ Lastly I cloned the repository into my IDE and so I can now I can commit my edit
 
 Overall today I just set up the project for my freedom project game. I will start working on the actual game next time.
 
+### 3/18/26
+
+Today I started working on the scene a little bit. I created a 2D charcter body node with the children nodes of a sprite, and collision shape.
+
+![alt text](imgs/ll9_1.png)
+Then for the sprite 2D I added this placeholder image for the player character because I hadn't downloaded any assets yet.
+
+![alt text](imgs/ll9_2.png)
+
+For the collision shape I used a rectangle shape and adjusted it to fit the player sprite. This will allow the player to collide with other objects in the game.
+
+![alt text](imgs/ll9_3.png)
+
+Next time I will probably start working on the player movement and maybe add a background to the scene.
 
 <!--
 * Links you used today (websites, videos, etc)

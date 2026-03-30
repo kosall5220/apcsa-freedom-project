@@ -342,6 +342,20 @@ For the collision shape I used a rectangle shape and adjusted it to fit the play
 
 Next time I will probably start working on the player movement and maybe add a background to the scene.
 
+### 3/23/26
+First thing I did today was add a camera2D as a child of the player character body so that the camera will follow the player around.
+
+![alt text](imgs/ll10_1.png)
+
+The camera2D works by inheriting the position of its parent node which is the player character body. So as the player moves around the level, the camera will automatically follow it.
+
+I just need to make the movement of the player now so that I can test the camera.
+
+
+
+
+
+
 <!--
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc

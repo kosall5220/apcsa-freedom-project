@@ -1,0 +1,3 @@
+[submodule "game"]
+	path = game
+	url = https://github.com/kosall5220/freedom-project-game

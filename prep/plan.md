@@ -1,7 +1,7 @@
 # Plan
 
 ## Tool: Godot
-## Product: 2D stealth game, "Sneaky Snacks"
+## Product: 2D survival game
 
 ---
 

@@ -1,5 +1,5 @@
 # Entry 6
-##### 6/9/26
+##### 6/6/26
 
 ### Context
 After finishing my final product I will now have to present it to my class and at the SEP expo.

@@ -66,7 +66,9 @@ From being a senior I realized how fast time can move. Time is a limited resourc
 #### You’ll be okay
 This was the most important lesson I learned. Throughout school students such as myself find ourselves really stressed out over things such as grades, college, or maybe deadlines. But, even though the path in front of me always seemed foggy I always ended up alright. The biggest thing I learned is that failure does not mean the end of the world and no matter what happens you will be okay.
 
-
+### Links:
+* [Presentation plan](https://github.com/kosall5220/apcsa-freedom-project/blob/main/prep/plan.md)
+* [Class Presentation](https://docs.google.com/presentation/d/1FNkGQzzVaR96S7mgUFRJ-TWsGFj5QVeCREYyv0elyAQ/edit?usp=sharing)
 
 
 

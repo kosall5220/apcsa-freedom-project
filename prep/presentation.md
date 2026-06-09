@@ -1,16 +1,19 @@
 # Presentation Plan
 
 ## Hook
-*
+* Question: Have you ever randomly wanted to eat a snack in the middle of the night?
 
 ## Product
-* Video demo
+* Video of the finished game and also video to display MVP
 
 ## Process
-*
+* Explain Steps to create MVP such as my plan and code for the basic features of my game.
+* Explain how I made my behind MVP and what feedback I got from my peers to help make it.
 
 ## Conclusion
-*
+* Takeaways about what I learned from completing the project or what I could’ve done better:
+ * time management
+ * Breaking down tasks
 
 <!-- EXAMPLE
 

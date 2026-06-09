@@ -1,22 +1,25 @@
 # APCSA Freedom Project
-by **X**
+by **Kosal Lour**
 
 ## Context
 I am a student at [HSTAT](https://www.hstat.org/) in the [Software Engineering Program](https://hstatsep.github.io/). The "Freedom Project" for AP Computer Science A is a year-long project all about making anything using technology.
 
-For my project, I chose to independently study **X** in order to help me make **X**.
+For my project, I chose to independently study **Godot** in order to help me make **Food collector survival game**.
 
 ## Links
 
-[Product]()
+[Product](https://drive.google.com/file/d/18oBRlZ2mlVJ1MsV3UQz2ZDV4Xwmi9LIJ/view)
 
-[Presentation]()
+[Presentation](https://docs.google.com/presentation/d/1FNkGQzzVaR96S7mgUFRJ-TWsGFj5QVeCREYyv0elyAQ/edit?usp=sharing)
 
 ## Implications
 ##### PROS
-* 
+* Used for entertainment
+* Help with quick decision making skills
+  * Players would have to make decisions to reach high score  
 ##### CONS
-* 
+* Could have more features
+* Is not playable online
 
 
 ## Blog

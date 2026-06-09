@@ -1,7 +1,7 @@
 # Plan
 
 ## Tool: Godot
-## Product: 2D stealth game, "Sneaky Snacks"
+## Product: 2D survival game
 
 ---
 
@@ -11,19 +11,19 @@
 
 - [x] Create new project on godot (deadline: March 15, 2026)
 - [x] Link project to Github (deadline: March 15, 2026)
-- [ ] Map creation (deadline: April 10, 2026)
-  - [ ] Items or food collectables
-  - [ ] map layout, hiding spots, idea is the inside of an house
-- [ ] Charcters (deadline: April 10, 2026)
-  - [ ] Player character (deadline: April 1, 2026)
-  - [ ] Enemy character (deadline: April 1, 2026)
-- [ ] Basic movement (deadline: April 10, 2026)
-- [ ] Code for collecting items (deadline: April 10, 2026)
-  - [ ] Item models (deadline: April 7, 2026)
-- [ ] Code for being caught by enemy (deadline: April 10, 2026)
-- [ ] Win and lose conditions (deadline: April 10, 2026)
-  - [ ] Win condition: collect food (deadline: April 10, 2026)
-  - [ ] Lose condition: get caught by parents (deadline: April 10, 2026)
+- [x] Map creation (deadline: April 10, 2026)
+  - [x] Items or food collectables
+  - [x] map layout, hiding spots, idea is the inside of an house
+- [x] Charcters (deadline: April 10, 2026)
+  - [x] Player character (deadline: April 1, 2026)
+  - [x] Enemy character (deadline: April 1, 2026)
+- [x] Basic movement (deadline: April 10, 2026)
+- [x] Code for collecting items (deadline: April 10, 2026)
+  - [x] Item models (deadline: April 7, 2026)
+- [x] Code for being caught by enemy (deadline: April 10, 2026)
+- [x] Win and lose conditions (deadline: April 10, 2026)
+  - [x] Win condition: collect food (deadline: April 10, 2026)
+  - [x] Lose condition: get caught by parents (deadline: April 10, 2026)
 
 
 
@@ -34,7 +34,9 @@
 
 - [ ] More detaled characters or item models.
 - [ ] Win/losing screen
-- [ ] More ememy types such as a pet or a sibling
+- [ ] Health bar
+- [ ] Suspense Music
+- [ ] Starting screen
 
 
 
